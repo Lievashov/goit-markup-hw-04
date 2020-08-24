@@ -17,6 +17,10 @@ body {
 	margin-right: auto;
 }
 
+header {
+	border: 1px solid #ECECEC;
+}
+
 h2 {
 	margin: 0px 0px 30px 0px;
 }
@@ -114,6 +118,17 @@ h2 {
 	background-color: #2f303a;
 }
 
+.fon {
+	max-width: 1600px;
+    margin-left: auto;
+	margin-right: auto;
+	background-color: #C4C4C4;;
+	background-image: linear-gradient( to right, rgba(47, 48, 58, 40%), rgba(47, 48, 58, 40%) ), url(../images/hero.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	}
+
 .page-title {
 	font-weight: 900;
 	font-size: 44px;
@@ -179,7 +194,12 @@ h2 {
 	margin-right: 0px;
 }
 
-.advantages-icon {
+.advantages-icon:after{ 
+	content: " ";
+	display: block;
+	width: 270px;
+	height: 120px;
+	background: #F5F4FA;;
 	padding: auto;
 }
 
@@ -334,7 +354,11 @@ li.icon-list {
 .footer-address {
 	margin-right: 70px;
 	width: 231px;
-}
+	}
+
+	a {
+		font-style: normal;
+	}
 
 .footer-link {
 	display: block;
