@@ -505,6 +505,7 @@ p.tatle-item {
 .partner {
 	width: calc((100% - 30px * 5) / 6);
 	margin-right: 30px;
+	background-color: #E5E5E5;
 }
 
 .partner:nth-child(6n) {
@@ -518,7 +519,7 @@ p.tatle-item {
 	width: 170px;
 	height: 90px;
 	border: 1px solid #afb1b8;
-	color: #afb1b8;
+	color:  #afb1b8;
 	border-radius: 4px;
 }
 
@@ -526,8 +527,8 @@ p.tatle-item {
 	color: currentColor;
 }
 
-.partner:hover,
-.partner:focus {
+.partner-item:hover,
+.partner-item:focus {
   color: #2196F3;;
   border-color: #2196F3;;
 }
