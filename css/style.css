@@ -102,17 +102,26 @@ h2 {
 .contacts-link:hover,
 .contacts-link:focus,
 .contacts:hover,
-.contacts:focus {
+.contacts:focus,
+.partner-item:hover,
+.partner-item:focus {
 	color: #2196f3;
 }
 
 .contacts-link {
+	display: flex;
+	align-items: center;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.25em;
 	letter-spacing: 0.02em;
 	color: #757575;
 	text-decoration: none;
+}
+
+.sprite-envelope, .sprite-smartphone {
+	margin-right: 10px;
+	fill: currentColor;
 }
 
 .flexbox {
@@ -338,6 +347,12 @@ p {
     border-radius: 50%;
 }
 
+.icon:hover,
+.icon:focus {
+	color: #ffffff;
+	background-color: #2196F3;;
+}
+
 .social-icon {
 	fill: currentColor;
 	display: flex;
@@ -390,11 +405,6 @@ p {
 p.tatle-item {
 	text-align: start;
 	width: 370px;
-}
-
-.contacts-link {
-	width: 231px;
-	height: 21px;
 }
 
 .contacts {
@@ -502,11 +512,22 @@ p.tatle-item {
 }
 
 .partner-item {
-	display: flex;
+	display: inline-flex;
 	justify-content: center;
-	align-content: center;
+	align-items: center;
 	width: 170px;
 	height: 90px;
 	border: 1px solid #afb1b8;
+	color: #afb1b8;
 	border-radius: 4px;
+}
+
+.partner-link {
+	color: currentColor;
+}
+
+.partner:hover,
+.partner:focus {
+  color: #2196F3;;
+  border-color: #2196F3;;
 }
